@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Download PartTracker App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --primary-color: #FFD700;
+      --bg-color: #1a1a1a;
+      --text-color: #f4f4f4;
+      --muted-color: #aaaaaa;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 400px;
+      width: 90%;
+      padding: 30px;
+      background-color: #222;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+      text-align: center;
+    }
+
+    .logo {
+      width: 80px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin: 10px 0;
+      color: var(--primary-color);
+    }
+
+    .slogan {
+      font-size: 14px;
+      color: var(--muted-color);
+      margin-bottom: 30px;
+    }
+
+    .download-button {
+      background-color: var(--primary-color);
+      color: #121212;
+      text-decoration: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
+
+    .download-button:hover {
+      background-color: #e6c100;
+    }
+
+    .qr {
+      margin-top: 30px;
+    }
+
+    .qr img {
+      width: 160px;
+      height: 160px;
+    }
+
+    .instructions {
+      margin-top: 30px;
+      font-size: 14px;
+      color: var(--muted-color);
+      text-align: left;
+    }
+
+    .instructions li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo1.png" alt="PartTracker Logo" class="logo">
+    <h1>PartTracker</h1>
+    <div class="slogan">LIVE. TRACK. OPTIMIZE.</div>
+
+    <a class="download-button"
+       href="https://drive.google.com/uc?export=download&id=1YOwESMQPSGMTkrQ_CiTquv-K2tPi5_Ch">
+      Download APK
+    </a>
+
+
+    <ul class="instructions">
+      <li>Download the APK using the button.</li>
+      <li>Open the downloaded file on your phone.</li>
+      <li>Allow installation from unknown sources when prompted.</li>
+      <li>Install and start using the app!</li>
+    </ul>
+  </div>
+</body>
+</html>
