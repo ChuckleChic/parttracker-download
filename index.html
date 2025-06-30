@@ -26,7 +26,7 @@
     .container {
       max-width: 400px;
       width: 90%;
-      padding: 30px;
+      padding: 30px 20px;
       background-color: #222;
       border-radius: 16px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.4);
@@ -34,7 +34,11 @@
     }
 
     .logo {
-      width: 80px;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 16px; /* use 50% for circle */
+      box-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
       margin-bottom: 20px;
     }
 
@@ -85,11 +89,19 @@
     .instructions li {
       margin-bottom: 10px;
     }
+
+    @media screen and (max-width: 500px) {
+      .logo {
+        width: 100px;
+        height: 100px;
+      }
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <img src="logo1.png" alt="PartTracker Logo" class="logo">
+
     <h1>PartTracker</h1>
     <div class="slogan">LIVE. TRACK. OPTIMIZE.</div>
 
@@ -98,6 +110,10 @@
       Download APK
     </a>
 
+    <div class="qr">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://drive.google.com/uc?export=download&id=1YOwESMQPSGMTkrQ_CiTquv-K2tPi5_Ch&size=200x200"
+           alt="QR Code to download APK">
+    </div>
 
     <ul class="instructions">
       <li>Download the APK using the button.</li>
