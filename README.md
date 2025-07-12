@@ -6,7 +6,7 @@ A real-time, cloud-enabled Android application developed to digitize and optimiz
 
 ##  Features
 
-### 🗓 **Production Planning**
+###  **Production Planning**
 - Create daily production plans by shift, date, model, color, and parts.
 - Plans are auto-fetched at the start of the shift and stored centrally.
 - Color and model filters improve user input accuracy.
@@ -87,18 +87,18 @@ This led to:
 
 ##  Project Outcomes
 
-- 🕒 **Lead Time Reduction**: ~50 sec saved per part
-- 📉 **Lower WIP**: Inline sanding/polishing streamlined material flow
-- 🔁 **Kaizen Implementation**: Continuous improvement in part handling and tracking
-- 📶 **Real-time Insights**: Full visibility of progress and bottlenecks
+-  **Lead Time Reduction**: ~50 sec saved per part
+-  **Lower WIP**: Inline sanding/polishing streamlined material flow
+-  **Kaizen Implementation**: Continuous improvement in part handling and tracking
+-  **Real-time Insights**: Full visibility of progress and bottlenecks
 
 ---
 
 ##  Status
 
-✅ Deployed on Paint Shop Floor  
-✅ Tested for shift-wise tracking and multi-device sync  
-✅ Integrated with Firebase for cloud-based operations  
+ Deployed on Paint Shop Floor  
+ Tested for shift-wise tracking and multi-device sync  
+ Integrated with Firebase for cloud-based operations  
 
 🔗 **Live Demo / Download**:  
 🌐 [Website Link](https://chucklechic.github.io/parttracker-download/)  
